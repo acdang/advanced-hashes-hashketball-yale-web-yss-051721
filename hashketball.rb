@@ -131,9 +131,7 @@ end
 def num_points_scored(player)
   #knows the number of points scored by each player (FAILED - 1)
   result = game_hash.find do |key, value|
-    result = value[:players].find do |array_index|
-      array_index[:player_name] == player
-    end
+    
   end
   binding.pry
 end
