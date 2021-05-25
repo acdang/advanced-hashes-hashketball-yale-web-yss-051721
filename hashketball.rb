@@ -160,7 +160,7 @@ def team_names
 end
 
 def player_numbers(team)
-  game_hash.each_with_object([]) do |(key, value), final|
+  game_hash.each_with_object([]) do |(key, value), final_array|
     if value[:team_name] == team
       
     end
