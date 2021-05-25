@@ -193,6 +193,6 @@ def big_shoe_rebounds
      shoes_array << player_hash[:shoe]
     end
   end
-  
+  max_size_index = all_shoes.index(all_shoes.max)
   binding.pry
 end
