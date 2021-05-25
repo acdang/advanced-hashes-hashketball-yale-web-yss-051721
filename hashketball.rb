@@ -170,7 +170,8 @@ def player_numbers(team)
 end
 
 def player_stats(player)
-  game_hash.values
+  result = {}
+  
   binding.pry
 end
 
