@@ -131,7 +131,7 @@ end
 def num_points_scored(player)
   #knows the number of points scored by each player (FAILED - 1)
   game_hash.each do |key, value|
-    value[:players].find |hash|
+    value[:players].find do |hash|
   end
 end
 
