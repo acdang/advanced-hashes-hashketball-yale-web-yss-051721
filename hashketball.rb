@@ -182,5 +182,5 @@ def player_stats(player)
 end
 
 def big_shoe_rebounds
-  #returns the number of rebounds of the player with the biggest shoe size (FAILED - 8)
+  
 end
