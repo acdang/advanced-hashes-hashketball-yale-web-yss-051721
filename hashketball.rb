@@ -139,7 +139,13 @@ def num_points_scored(player)
 end
 
 def shoe_size
-  #knows the shoe size of each player (FAILED - 2)
+  result = []
+  game_hash.find do |key, value|
+    result = value[:players].find do |array_index|
+      array_index[:player_name] == player
+    end
+  end
+  result[:shoe]
 end
 
 def team_colors
