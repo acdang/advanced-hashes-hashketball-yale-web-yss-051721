@@ -150,7 +150,7 @@ end
 
 def team_colors(team)
   game_hash.find do |key, value|
-    
+    binding.pr
   end
 end
 
