@@ -182,5 +182,6 @@ def player_stats(player)
 end
 
 def big_shoe_rebounds
-  all_players = []
+  game_hash.each_with_object([]) do |(key, value), players_array|
+  
 end
