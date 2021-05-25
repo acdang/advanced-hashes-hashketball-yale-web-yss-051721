@@ -130,7 +130,7 @@ end
 # Write code here
 def num_points_scored(player)
   result = []
-  game_hash.find do |key, value|
+  game_hash.each do |key, value|
     result = value[:players].find do |array_index|
       array_index[:player_name] == player
     end
