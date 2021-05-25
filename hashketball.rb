@@ -175,6 +175,7 @@ def player_stats(player)
       if player_hash[:player_name] == player
         final_hash = player_hash
       end
+    end
   end
 end
 
