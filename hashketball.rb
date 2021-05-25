@@ -169,7 +169,7 @@ def player_numbers(team)
   end
 end
 
-def player_stats
+def player_stats(player)
   #returns all stats for a given player (FAILED - 7)
 end
 
