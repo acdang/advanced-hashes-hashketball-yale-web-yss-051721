@@ -143,8 +143,10 @@ end
 def shoe_size(player)
   result = 0
   game_hash.each do |key, value|
-    result = value[:players].find do |array_index|
-      array_index[:player_name] == player
+    value[:players].each do |array_index|
+      if array_index[:player_name] == player
+        result = array_index[:show]
+      end
     end
   end
   result[:shoe]
