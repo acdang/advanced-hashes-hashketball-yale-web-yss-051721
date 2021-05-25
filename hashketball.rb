@@ -186,7 +186,6 @@ def big_shoe_rebounds
     value[:players].each do |player_hash|
       players_array << player_hash[:player_name]
     end
-    binding.pry
   end
-  
+  binding.pry
 end
