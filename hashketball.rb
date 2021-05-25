@@ -171,7 +171,7 @@ end
 
 def player_stats(player)
   result = {}
-  
+  game_hash.values
   binding.pry
 end
 
