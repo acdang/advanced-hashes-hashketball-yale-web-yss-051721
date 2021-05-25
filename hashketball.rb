@@ -172,7 +172,7 @@ end
 def player_stats(player)
   game_hash.each_with_object({}) do |(key, value), final_hash|
     value[:players].each do |player_hash|
-      binding.pry
+      if player_hash[:player_name] == player
   end
 end
 
