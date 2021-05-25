@@ -187,5 +187,11 @@ def big_shoe_rebounds
       players_array << player_hash[:player_name]
     end
   end
+  
+  all_shoes = game_hash.each_with_object([]) do |(key, value), players_array|
+    value[:players].each do |player_hash|
+      players_array << player_hash[:player_name]
+    end
+  end
   binding.pry
 end
