@@ -162,6 +162,9 @@ end
 def player_numbers(team)
   game_hash.each_with_object([]) do |(key, value), final_array|
     if value[:team_name] == team
+      value[:players].each do |hash|
+        
+      end
       binding.pry
     end
   end
