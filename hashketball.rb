@@ -165,7 +165,6 @@ def player_numbers(team)
       value[:players].each do |hash|
         final_array << hash[:number]
       end
-      binding.pry
     end
   end
 end
