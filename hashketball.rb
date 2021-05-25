@@ -137,7 +137,8 @@ def team_colors
   #knows the Brooklyn Nets colors are Black and White (FAILED - 3)
   #knows the Charlotte Hornets colors are Turquoise and Purple (FAILED - 4)
 end
-  #team_names
+
+def team_names
     returns the team names (FAILED - 5)
   #player_numbers
     returns the player jersey numbers (FAILED - 6)
