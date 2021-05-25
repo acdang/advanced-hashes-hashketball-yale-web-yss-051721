@@ -160,7 +160,9 @@ def team_names
 end
 
 def player_numbers(team)
-  
+  game_hash.each_with_object([]) do |key, value|
+    
+  end
 end
 
 def player_stats
