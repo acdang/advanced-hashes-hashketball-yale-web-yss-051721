@@ -131,7 +131,7 @@ end
 def num_points_scored(player)
   result = 0
   game_hash.each do |key, value|
-    result = value[:players].find do |array_index|
+    result = value[:players].each do |array_index|
       array_index[:player_name] == player
     end
   end
