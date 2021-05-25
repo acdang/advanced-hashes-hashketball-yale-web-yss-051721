@@ -147,6 +147,9 @@ end
 def player_numbers
   #returns the player jersey numbers (FAILED - 6)
 end
-  #player_stats
-    returns all stats for a given player (FAILED - 7)
+
+def player_stats
+  #returns all stats for a given player (FAILED - 7)
+end
+
   #big_shoe_rebounds
