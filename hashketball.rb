@@ -149,7 +149,7 @@ def shoe_size(player)
       end
     end
   end
-  result[:shoe]
+  result
 end
 
 def team_colors(team)
