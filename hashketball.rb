@@ -141,7 +141,7 @@ def num_points_scored(player)
 end
 
 def shoe_size(player)
-  result = []
+  result = 0
   game_hash.each do |key, value|
     result = value[:players].find do |array_index|
       array_index[:player_name] == player
