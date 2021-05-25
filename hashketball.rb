@@ -182,5 +182,5 @@ def player_stats(player)
 end
 
 def big_shoe_rebounds
-  
+  all_players = []
 end
