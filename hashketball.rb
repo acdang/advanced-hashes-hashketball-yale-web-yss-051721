@@ -148,7 +148,7 @@ def shoe_size(player)
   result[:shoe]
 end
 
-def team_colors
+def team_colors(team)
   #knows the Brooklyn Nets colors are Black and White (FAILED - 3)
   #knows the Charlotte Hornets colors are Turquoise and Purple (FAILED - 4)
 end
