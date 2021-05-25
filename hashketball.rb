@@ -194,5 +194,6 @@ def big_shoe_rebounds
     end
   end
   max_size_index = all_shoes.index(all_shoes.max)
+  all_players_rebounds[max_size_index][1]
   binding.pry
 end
