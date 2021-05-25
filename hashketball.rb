@@ -156,7 +156,7 @@ def team_colors(team)
 end
 
 def team_names
-  #returns the team names (FAILED - 5)
+  result = {}
 end
 
 def player_numbers
