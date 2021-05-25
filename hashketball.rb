@@ -138,7 +138,7 @@ def num_points_scored(player)
   result[:points]
 end
 
-def shoe_size
+def shoe_size(player)
   result = []
   game_hash.find do |key, value|
     result = value[:players].find do |array_index|
