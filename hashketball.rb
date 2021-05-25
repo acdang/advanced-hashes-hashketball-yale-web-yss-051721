@@ -136,6 +136,7 @@ def num_points_scored(player)
       array_index[:player_name] == player
     end
   end
+  result[:points]
   binding.pry
 end
 
