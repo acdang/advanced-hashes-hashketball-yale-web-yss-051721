@@ -150,6 +150,8 @@ end
 
 def team_colors(team)
   game_hash.find do |key, value|
+    
+  end
 end
 
 def team_names
