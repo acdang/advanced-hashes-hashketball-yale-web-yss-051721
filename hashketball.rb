@@ -171,6 +171,8 @@ end
 
 def player_stats(player)
   game_hash.each_with_object({}) do |key, value|
+    
+  end
   binding.pry
 end
 
