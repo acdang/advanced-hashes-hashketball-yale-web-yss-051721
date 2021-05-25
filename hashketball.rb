@@ -183,7 +183,7 @@ end
 
 def big_shoe_rebounds
   game_hash.each_with_object([]) do |(key, value), players_array|
-    
+    binding.pry
   end
   
 end
