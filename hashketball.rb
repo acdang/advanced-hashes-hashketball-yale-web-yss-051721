@@ -170,8 +170,7 @@ def player_numbers(team)
 end
 
 def player_stats(player)
-  result = {}
-  game_hash.values
+  game_hash.each_with_object({}) do |key, value|
   binding.pry
 end
 
