@@ -131,7 +131,8 @@ def num_points_scored
   #knows the number of points scored by each player (FAILED - 1)
 end
 def shoe_size
-    knows the shoe size of each player (FAILED - 2)
+  #knows the shoe size of each player (FAILED - 2)
+end
   #team_colors
     knows the Brooklyn Nets colors are Black and White (FAILED - 3)
     knows the Charlotte Hornets colors are Turquoise and Purple (FAILED - 4)
