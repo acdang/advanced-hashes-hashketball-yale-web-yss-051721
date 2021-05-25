@@ -134,8 +134,8 @@ def shoe_size
   #knows the shoe size of each player (FAILED - 2)
 end
 def team_colors
-  knows the Brooklyn Nets colors are Black and White (FAILED - 3)
-  knows the Charlotte Hornets colors are Turquoise and Purple (FAILED - 4)
+  #knows the Brooklyn Nets colors are Black and White (FAILED - 3)
+  #knows the Charlotte Hornets colors are Turquoise and Purple (FAILED - 4)
 end
   #team_names
     returns the team names (FAILED - 5)
