@@ -170,7 +170,8 @@ def player_numbers(team)
 end
 
 def player_stats(player)
-  #returns all stats for a given player (FAILED - 7)
+  game_hash.values
+  binding.pry
 end
 
 def big_shoe_rebounds
