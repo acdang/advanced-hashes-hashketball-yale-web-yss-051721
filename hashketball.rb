@@ -140,7 +140,7 @@ end
 
 def shoe_size(player)
   result = []
-  game_hash.find do |key, value|
+  game_hash.each do |key, value|
     result = value[:players].find do |array_index|
       array_index[:player_name] == player
     end
@@ -149,8 +149,7 @@ def shoe_size(player)
 end
 
 def team_colors(team)
-  #knows the Brooklyn Nets colors are Black and White (FAILED - 3)
-  #knows the Charlotte Hornets colors are Turquoise and Purple (FAILED - 4)
+  game_hash.
 end
 
 def team_names
